@@ -57,3 +57,5 @@ Please ensure your code follows best practices and is well-documented.
 ## License
 
 This project is released under the [MIT License](./LICENSE).
+
+[!["Buy Me A Hot Chocolate"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jasminshah){:target="_blank"}
