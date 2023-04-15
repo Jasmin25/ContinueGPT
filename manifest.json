@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "ContinueGPT",
+  "version": "1.0",
+  "description": "Adds a 'Continue response' button to the OpenAI ChatGPT website.",
+  "permissions": ["scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

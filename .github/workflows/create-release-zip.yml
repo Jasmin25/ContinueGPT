@@ -1,0 +1,31 @@
+name: Release artifact creation
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  create-zip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+      packages: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create ZIP file
+        run: zip -r ContinueGPT.zip . -x '*.git*' '.github/*'
+
+      - name: Upload ZIP file to release
+        uses: svenstaro/upload-release-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: ContinueGPT.zip
+          asset_name: ContinueGPT.zip
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          content_type: application/zip
