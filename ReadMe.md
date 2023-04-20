@@ -15,7 +15,7 @@ ContinueGPT is a user-friendly Chrome extension designed to enhance the user exp
 There are three ways to install the ContinueGPT extension:
 
 ### Method 1: Install from the Chrome Web Store
-1. Visit the [ContinueGPT Chrome Web Store page](https://your-chrome-web-store-url).
+1. Visit the [ContinueGPT Chrome Web Store page](https://chrome.google.com/webstore/detail/continuegpt/cgenajjinoaadpejdioamfjbaienjkdi).
 2. Click the "Add to Chrome" button and confirm the installation.
 3. The ContinueGPT extension should now appear in your browser's toolbar.
 
