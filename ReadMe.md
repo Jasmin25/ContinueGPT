@@ -1,3 +1,6 @@
+> [!WARNING]
+> This plugin will not be developed or maintained going forward. OpenAI has introduced an in-built feature that allows users to continue generating if ChatGPT reaches its token limit during responding. 
+
 # ContinueGPT [![Create Release ZIP](https://github.com/Jasmin25/ContinueGPT/actions/workflows/create-release-zip.yml/badge.svg)](https://github.com/Jasmin25/ContinueGPT/actions/workflows/create-release-zip.yml)
 
 Tired of incomplete responses from ChatGPT? Take control of your conversations with ContinueGPT – the ultimate sidekick for your OpenAI ChatGPT adventures!
